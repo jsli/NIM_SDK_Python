@@ -78,7 +78,6 @@ class MessageComponent(base.BaseComponent):
         """
         文件上传（multipart方式）
         """
-        print u'暂不支持multipart方式上传, 转换为普通文件上传'
         return self.upload(**kwargs)
 
     def recall(self, **kwargs):
